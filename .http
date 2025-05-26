@@ -1,0 +1,10 @@
+// GET http://localhost:1323/users/123 
+// GET http://localhost:1323/users/joe
+// GET http://localhost:1323/show?team=x-men&member=wolverine
+POST http://localhost:1323/users
+Content-Type: application/json
+
+{
+    "name": "joe",
+    "email": "joe@gmail.com"
+}
